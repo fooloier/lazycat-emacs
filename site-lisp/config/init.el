@@ -47,6 +47,7 @@
     (require 'basic-toolkit)
     (require 'redo)
 
+    (require 'init-key-echo)
     (require 'init-highlight-parentheses)
     (require 'init-awesome-tray)
     (require 'init-line-number)
@@ -83,7 +84,6 @@
          (require 'init-olivetti)
 
          (unless (eq window-system 'pgtk)
-           (require 'init-key-echo)
            (require 'init-holo-layer)
            (require 'init-eaf))
 
